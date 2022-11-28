@@ -37,3 +37,7 @@ git commit -m "Paso 26"
 28. git push --set-upstream origin Master
 git push origin RespuestaPreguntaFusion
 29.-
+30.git add bitacora.txt
+git commit -m "Paso 30"
+31.git merge Historia001 recursiva porque ha cambiado el estado porque hemos realizado commits
+32-
