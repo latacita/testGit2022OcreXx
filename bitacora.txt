@@ -41,3 +41,6 @@ git push origin RespuestaPreguntaFusion
 git commit -m "Paso 30"
 31.git merge Historia001 recursiva porque ha cambiado el estado porque hemos realizado commits
 32-
+NOTA IMPORTANTE:
+En algun momento hago un git checkout Master lo cual deberia dar error porque la rama Master com M mayúscula no existe
+pero en vez de eso me crea una nueva rama sin notificarmelo y se trabaja a partir de esa rama
