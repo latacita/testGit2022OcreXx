@@ -22,3 +22,8 @@
 15.git checkout Historia001
 16.git stash pop
 17.-
+18.git add bitacora.txt
+19.git commit -m "Paso 19"
+20.git merge Historia000 -->recursiva    Es recursiva porque el estado que historia 000 tenia de 001 no es el mismo que el actual
+git add bitacora.txt			 Los conflictos son el mismo sitio, pone cosas distintas así que no puede auto solventarlos
+git commit -m "Resolver merge"
