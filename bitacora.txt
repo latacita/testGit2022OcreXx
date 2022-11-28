@@ -10,3 +10,9 @@
 23.git commit -m "Paso 23"
 24.git checkout Master
 25.Seria por fast forward porque esta en el mismo estado que cuando la rama fue creada
+26.git add bitacora.txt
+git commit -m "Paso 26"
+27.git tag RespuestaPreguntaFusion
+28. git push --set-upstream origin Master
+git push origin RespuestaPreguntaFusion
+29.-
