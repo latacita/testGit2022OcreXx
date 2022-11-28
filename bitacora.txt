@@ -1,11 +1,32 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Marcos Fernandez Alonso                                    %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+1.git clone link
+2.-
+3.git branch Historia000
+4.git branch Historia001
+5.git checkout Historia000
+6.-
+7.git add bitacora.txt
+8.git commit -m "Paso 08"
+9. git checkout Historia001
+11.git stash
+   git checkout Historia000
+13.git add bitacora.txt
+14.git commit -m "Paso 14"
+15.git checkout Historia001
+16.git stash pop
+17.-
+18.git add bitacora.txt
+19.git commit -m "Paso 19"
+20.git merge Historia000 -->recursiva    Es recursiva porque el estado que historia 000 tenia de 001 no es el mismo que el actual
+git add bitacora.txt			 Los conflictos son el mismo sitio, pone cosas distintas así que no puede auto solventarlos
+git commit -m "Resolver merge"
 22.git add bitacora.txt
 23.git commit -m "Paso 23"
 24.git checkout Master
